@@ -49,6 +49,7 @@ SELECT user, host, plugin FROM mysql.user ORDER BY user, host;
 sudo mysql < /tmp/sakila/sakila-db/sakila-schema.sql
 sudo mysql < /tmp/sakila/sakila-db/sakila-data.sql
 sudo mysql -e "GRANT ALL PRIVILEGES ON sakila.* TO 'sys_temp'@'10.211.55.%'; FLUSH PRIVILEGES;"
+```
 
 - Проверки (SQL):
 
