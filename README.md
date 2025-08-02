@@ -29,9 +29,9 @@ SHOW GRANTS FOR 'sys_temp'@'10.211.55.%';
 SELECT user, host, plugin FROM mysql.user ORDER BY user, host;
 
 **Скриншоты:**
-- ![users](screenshots/step01_users.png)
-- ![grants](screenshots/step01_grants.png)
-- ![connect](screenshots/step01_connect.png)
+![users](screenshots/step01_users.png)
+![grants](screenshots/step01_grants.png)
+![connect](screenshots/step01_connect.png)
 
 ---
 
@@ -57,7 +57,7 @@ SELECT COUNT(*) AS films  FROM film;   -- 1000
 SELECT COUNT(*) AS actors FROM actor;  -- 200
 
 **Скриншоты:**
-- ![tables](screenshots/step02_tables.png)
-- ![count1](screenshots/step02_counts_1.png)
-- ![count2](screenshots/step02_counts_2.png)
-- ![erd](screenshots/sakila_erd.png)
+![tables](screenshots/step02_tables.png)
+![count1](screenshots/step02_counts_1.png)
+![count2](screenshots/step02_counts_2.png)
+![erd](screenshots/sakila_erd.png)
