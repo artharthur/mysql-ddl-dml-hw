@@ -29,6 +29,7 @@ FLUSH PRIVILEGES;
 SHOW GRANTS FOR 'sys_temp'@'10.211.55.%';
 SELECT user, host, plugin FROM mysql.user ORDER BY user, host;
 
+**Скриншоты:**
 ![users](screenshots/step01_users.png)
 ![grants](screenshots/step01_grants.png)
 ![connect](screenshots/step01_connect.png)
