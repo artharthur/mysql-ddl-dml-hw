@@ -58,7 +58,6 @@ SELECT COUNT(*) AS films  FROM film;   -- 1000
 SELECT COUNT(*) AS actors FROM actor;  -- 200
 
 **Скриншоты:**
-![tables](screenshots/step02_tables.png)
 ![count1](screenshots/step02_counts_1.png)
 ![count2](screenshots/step02_counts_2.png)
 ![erd](screenshots/sakila_erd.png)
