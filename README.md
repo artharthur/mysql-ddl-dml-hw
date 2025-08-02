@@ -30,9 +30,10 @@ SELECT user, host, plugin FROM mysql.user ORDER BY user, host;
 
 **Скриншоты:**
 ![users](screenshots/step01_users.png)
-![grants](screenshots/step01_grants.png)
-![connect](screenshots/step01_connect.png)
 
+![grants](screenshots/step01_grants.png)
+
+![connect](screenshots/step01_connect.png)
 ---
 
 ## Шаг 2 — восстановление `sakila` и ER-диаграмма (пп. 1.6–1.8)
